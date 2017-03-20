@@ -36,5 +36,5 @@ Open pythcontrol.py and find the following code:
 commands = {'uu':'web.bat','dd':'notepad.bat','nn':'','nu':'','nd':'','un':'','ud':'','dn':'','du':''}  
 ```
 Enter the file name of your .bat file next to a command of your choice.  
-Ex: If you want your .bat file to run after whistling three similar pitches change 'nn':'' to 'nn':'yourFile.bat'  
+**Ex:** If you want your .bat file to run after whistling three similar pitches change 'nn':'' to 'nn':'yourFile.bat'  
 + You are finished! Whistle the command you chose in the step above and your .bat file will run.  
