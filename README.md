@@ -15,7 +15,7 @@ When a command is issued a .bat file will run and an action will occur.
 If PytchControl detects three tones of increasing pitch it will create the command *'uu'*  
 *'uu'* is a default command and will run 'web.bat' which opens this github repo.  
 
-#Quickstart guide
+# Quickstart guide
 1. Ensure you have python 2 installed with numpy and pyaudio  
 2. Clone the repository  
 3. Run pytchcontrol.py  
