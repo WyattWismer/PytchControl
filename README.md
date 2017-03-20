@@ -1,18 +1,18 @@
 # PytchControl
-Control your computer through python based pitch detection
+Control your computer through python based pitch detection  
 
 # Explanation
-PytchControl allows you to use changes in pitch to control your computer.\n
-When a series of pitches are detected the change between each pitch is recorded and these changes form a command.\n
-The three types of changes are:\n
-+ n - pitch stays the same (within TOLERANCE)\n
-+ u - pitch increases\n
-+ d - pitch decreases\n
-When a command is issued a .bat file will run and an action will occur.\n
+PytchControl allows you to use changes in pitch to control your computer.  
+When a series of pitches are detected the change between each pitch is recorded and these changes form a command.  
+The three types of changes are:  
++ n - pitch stays the same (within TOLERANCE)  
++ u - pitch increases  
++ d - pitch decreases  
+When a command is issued a .bat file will run and an action will occur.  
 
-For example:
-If PytchControl detects three tones of increasing pitch it will create the command 'uu'.
-'uu' is a default command and will run 'web.bat' which opens this github repo.
+For example:  
+If PytchControl detects three tones of increasing pitch it will create the command 'uu'.  
+'uu' is a default command and will run 'web.bat' which opens this github repo.  
 
 #Quickstart guide
 1.Ensure you have python 2 installed with numpy and pyaudio
