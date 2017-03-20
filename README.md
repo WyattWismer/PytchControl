@@ -6,7 +6,7 @@ Control your computer through python based pitch detection
 PytchControl allows you to use changes in pitch to control your computer.  
 When a series of pitches are detected the change between each pitch is recorded and these changes form a command.  
 The three types of changes are:  
-+ **n** - pitch stays the same (within TOLERANCE)  
++ **n** - pitch stays the same *(within TOLERANCE)*  
 + **u** - pitch increases  
 + **d** - pitch decreases  
 
@@ -27,14 +27,14 @@ If PytchControl detects three tones of increasing pitch it will create the comma
 
 # Custom Commands
 To make a custom command follow the steps below:  
-1. Write a .bat file for your command  
++ Write a .bat file for your command  
 Place the finished .bat file in the same directory as pythcontrol.  
 If you are uncertain how to begin look at the *web.bat* or *notepad.bat* provided in the repo.    
-2. Add your command to pythcontrol.py  
++ Add your command to pythcontrol.py  
 Open pythcontrol.py and find the following code:  
 ```python
 commands = {'uu':'web.bat','dd':'notepad.bat','nn':'','nu':'','nd':'','un':'','ud':'','dn':'','du':''}  
 ```
 Enter the file name of your .bat file next to a command of your choice.  
 Ex: If you want your .bat file to run after whistling three similar pitches change 'nn':'' to 'nn':'yourFile.bat'  
-3. You are finished! Whistle the command you chose in the step above and your .bat file will run.  
++ You are finished! Whistle the command you chose in the step above and your .bat file will run.  
